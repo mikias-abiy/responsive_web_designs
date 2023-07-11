@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, intial-scale=1.0' />
+    <link rel='stylesheet' href='./styles/main.css' />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id='title'>Survey<br>Form</h1>
+    <p id='description'>Survery form for collecting information for a research.</p>
+    <form id='survey-form'>
+      <fieldset>
+        <label id='name-label' for='name'>Full Name: <input id='name' name='name' type='text' placeholder='Full Name' required/></label>
+        <label id='email-label' for='email'>Email: <input id='email' name='email' type='email' placeholder='Email' required/></label>
+        <label id='number-label' for='number'>Age (years): <input id='number' placeholder='Age' name='age' type='number' min=10 max=100 /></label>
+        <label id='dropdown-label' for='dropdown'>Gender:
+          <select id='dropdown' name='gender'>
+            <option value=''>(-- select --)</option>
+            <option value='m'>Male</option>
+            <option value='f'>Female</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset class='groups'>
+        <legend>Which email client do you prefer:</legend>
+        <label for='protonmail'><input id='gmail' value='gmail' name='prefered-email-client' type='radio' />Gmail</label>
+        <label for='protonmail'><input id='protonmail' value='protonmail' name='prefered-email-client' type='radio' /> Protonmail</label>
+        <label for='hotmail'><input id='hotmail' value='hotmail' name='prefered-email-client' type='radio' /> Hotmail</label>
+      </fieldset>
+
+      <fieldset class='groups'>
+        <legend>For what reasons did you choose yor prefered email client:</legend>
+        <label for='security'><input id='security' value='security' name='prefered-email-client-reason' type='checkbox' /> Security</label>
+        <label for='accessiblity'><input id='accessiblity' value='accessiblity' name='prefered-email-client-reason' type='checkbox' /> Accessiblity</label>
+        <label for='only-one'><input id='only-one' value='only-one' name='prefered-email-client-reason' type='checkbox' /> It's the only Email provider i am aware of.</label>
+        <label for='other'><input id='other' value='other' name='prefered-email-client-reason' type='checkbox' />other</label>
+      </fieldset>
+      <fieldset>
+        <legend>If you choose other for question above provide a reason here:</legend>
+        <textarea class='other-reason'>
+          
+        </textarea>
+      </fieldset>
+      <input id='submit' type='submit' Value='Submit'>
+    </form>
+  </body>
+</html>
