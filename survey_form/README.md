@@ -11,6 +11,6 @@ Here are some concepts i applied when i build this project:
 
 This form serves to collect data about which email client is used by most people and why.<br>
 
-![Survey Form's website image](./Survey_Form.png)
+![Survey Form's website image](./images/Survey_Form.png)
 
 ### Thankyou for visiting.
