@@ -11,6 +11,6 @@ Here are some concepts i applied when i build this project:
 
 This form serves to collect data about which email client is used by most people and why.<br>
 
-<img src='./Survey_Form.png' alt="Survey Form's website image" height=612 width=922>
+<img src='./Survey_Form.png' alt="Survey Form's website image" width=612 height=922>
 
 ### Thankyou for visiting.
