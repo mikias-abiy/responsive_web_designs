@@ -1,4 +1,4 @@
-# Simple Survey Form
+# Survey Form
 
 ## Description
 
@@ -11,6 +11,6 @@ Here are some concepts i applied when i build this project:
 
 This form serves to collect data about which email client is used by most people and why.<br>
 
-![The survey form's image](./Survey_Form.png)
+<img src='./Survey_Form.png' alt="Survey Form's website image" height=612 width=922>
 
 ### Thankyou for visiting.
